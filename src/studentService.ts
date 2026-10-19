@@ -20,7 +20,7 @@ function calculateTotal(scores: number[]): number {
     return scores.reduce((total, score) => total + score, 0);
 } 
 
-function calculateAverage(scores: number[]): number{
+function calculateAverage(scores: number[]): number {
    const total= calculateTotal(scores);
     return total / scores.length;
 }
